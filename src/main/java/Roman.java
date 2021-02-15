@@ -3,8 +3,14 @@ public class Roman {
 
     public int toArabic(String romanNumber) {
         int sum= 0;
-        for (char literal : romanNumber.toCharArray()) {
-            sum += mapLiteral(literal);
+        int [] digits = new int[romanNumber.length()];
+
+        for (int i = 0 ; i < romanNumber.length(); i++) {
+            digits[i]= mapLiteral(romanNumber.charAt(i));
+        }
+
+        for (int i = 0 ; i < romanNumber.length(); i++) {
+            sum += digits[i];
         }
         return sum;
     }
