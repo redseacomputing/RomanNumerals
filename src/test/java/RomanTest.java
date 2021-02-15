@@ -10,7 +10,9 @@ class RomanTest {
     }
 
     @Test
-    void testUnits() {
-        assertEquals(1, 1);
+    void shouldConvertITo1() {
+        Roman roman = new Roman();
+        assertEquals(1, roman.toArabic("I"));
     }
+
 }
