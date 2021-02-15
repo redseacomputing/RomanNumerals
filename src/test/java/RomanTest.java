@@ -32,6 +32,7 @@ class RomanTest {
     void shouldConvertIITo2() {
         assertEquals(2, roman.toArabic("II"));
     }
+
     @Test
     void shouldConvertXXXVIIITo38() {
         assertEquals(38, roman.toArabic("XXXVIII"));
