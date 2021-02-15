@@ -24,5 +24,5 @@ Die Römischen Zahlen bewegen sich im Bereich von „I“ bis „MMM“.
   vor einer größeren kommt, dann multipliziere die kleinere mal -1
 * Kommt als String, iteriert über einzelne char's, konvertiert auf Dezimal und
   vergleiche mit vorherigen/nächsten, summieren
-* Datenstrukturen: ?
+* Datenstrukturen: ? ---> HashMap
     

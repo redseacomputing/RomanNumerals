@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -27,4 +28,9 @@ class RomanTest {
         assertEquals(10, roman.toArabic("X"));
     }
 
+    @Disabled
+    @Test
+    void shouldConvertIITo2() {
+        assertEquals(2, roman.toArabic("II"));
+    }
 }
